@@ -24,7 +24,7 @@ spec:
           name: csi-pvc
   volumeClaimTemplates:
   - metadata:
-      name: csi-pvc
+      name: csi-pvc # pvc persistent volume claim
     spec:
       accessModes:
       - ReadWriteOnce
