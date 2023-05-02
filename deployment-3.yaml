@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: nginx
-  replicas: 2 # Cantidad de pods(ngnix) que queremos en nuestro deployment
+  replicas: 2 # Cantidad de pods(ngnix) que queremos en nuestro deployment. (*El deployment es un template para crear pods)
   template:
     metadata:
       labels:
