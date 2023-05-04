@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: DaemonSet # Permite desplegar un solo pod en todos los nodos. # Sirve para servicios de monitoreo en los nodos. # Capturar logs
+kind: DaemonSet # Permite desplegar un pod en todos los nodos creados. # Sirve para servicios de monitoreo en los nodos. # Capturar logs
 metadata:
   name: nginx-deployment
 spec:

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ubuntu
+spec:
+  containers:
+  - name: ubuntu #Permite crear un container de ubuntu para concetarse a los pods.
+    image: ubuntu
+    args:
+    - sleep
+    - infinity
